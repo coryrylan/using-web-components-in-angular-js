@@ -1,0 +1,11 @@
+{
+  "name": "typescript",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@clr/core": "4.0.0-rc.0",
+    "@types/angular": "1.7.2",
+    "angular": "1.8.0",
+    "normalize.css": "^8.0.1"
+  }
+}

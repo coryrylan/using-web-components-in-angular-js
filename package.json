@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@clr/core": "4.0.0-rc.0",
+    "@clr/city": "^1.1.0",
+    "@clr/core": "4.0.0-rc.1",
     "@types/angular": "1.7.2",
     "angular": "1.8.0",
     "normalize.css": "^8.0.1"

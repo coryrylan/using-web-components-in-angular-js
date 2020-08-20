@@ -6,15 +6,21 @@ import './style.css';
 angular.module('app', []);
 angular.element(document).ready(() => angular.bootstrap(document, ['app']));
 
+// https://clarity.design/storybook/core
+
 angular.module('app').component('appRoot', {
   template: `
-    <cds-button status="primary" ng-click="$ctrl.showAlert = true">hello there</cds-button>
+    <main cds-layout="vertical gap:lg p:lg">
+      <h1 cds-text="heading">Clarity Core - AngularJS Starter</h1>
 
-    <cds-alert-group ng-if="$ctrl.showAlert" ng-prop-status="$ctrl.status">
-      <cds-alert ng-on-close_change="$ctrl.showAlert = false" closable>
-        General Kenobi, you are a bold one...
-      </cds-alert>
-    </cds-alert-group>
+      <cds-button status="primary" ng-click="$ctrl.showAlert = true">hello there</cds-button>
+
+      <cds-alert-group ng-if="$ctrl.showAlert" ng-prop-status="$ctrl.status">
+        <cds-alert ng-on-close_change="$ctrl.showAlert = false" closable>
+          General Kenobi, you are a bold one...
+        </cds-alert>
+      </cds-alert-group>
+    </main>
   `,
   controller: function () {
     this.status = 'danger';

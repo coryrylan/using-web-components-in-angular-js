@@ -12,7 +12,7 @@ angular.module('app').component('appRoot', {
 
     <cds-alert-group ng-if="$ctrl.showAlert" ng-prop-status="$ctrl.status">
       <cds-alert ng-on-close_change="$ctrl.showAlert = false" closable>
-        General Kenobi. You are a bold one.
+        General Kenobi, you are a bold one...
       </cds-alert>
     </cds-alert-group>
   `,

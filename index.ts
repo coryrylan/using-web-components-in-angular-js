@@ -1,6 +1,6 @@
 import angular from 'angular';
-import '@clr/core/alert/register';
-import '@clr/core/button/register';
+import '@cds/core/alert/register';
+import '@cds/core/button/register';
 import './style.css';
 
 angular.module('app', []);

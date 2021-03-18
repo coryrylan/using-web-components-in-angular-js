@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@cds/city": "^1.1.0",
-    "@cds/core": "^5.0.2",
+    "@cds/core": "^5.1.0",
     "@types/angular": "^1.8.1",
     "angular": "^1.8.2",
     "normalize.css": "^8.0.1"
